@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.main{
+    
+    display: flex;
+
+}
+.main .left{
+    margin:77px;
+}
+.main .left nav img{
+    width: 30%;
+}
+.main .left nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.left nav .sign{
+    font-size: 17px;
+    width: 110px;
+    height: 36px;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    border: none;
+
+}
+.left nav  button{
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    margin-inline: 12px;
+    font-size: 17px;
+
+}
+.main img{
+    width: 700px;
+
+}
+.main .left .txt{
+    margin-left: 63px;
+    margin-top: 77px;
+}
+.left .txt h1{
+    color: rgb(34, 33, 33);
+    font-size: 43px;
+    
+}
+.left .txt .pop{
+    font-size: 17px;
+    color: grey;
+    font-weight: bold;
+}
+.left .txt .city{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(81, 80, 80);
+}
+.left .txt p{
+    color: rgb(124, 123, 123);
+    margin-top: 22px;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.left .txt .inp{
+    display: flex;
+}
+.left .txt input{
+    width: 400px;
+    height: 48px;
+    border: 1px solid rgb(186, 184, 184);
+    border-right: none;
+    padding-left: 11px;
+
+}
+.left .txt .inp input {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(0, 0, 12);
+}
+.left .txt .inp button{
+    width: 125px;
+    height: 50px;
+    background-color: orange;
+   border: 1px solid orange;
+    
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #220608e6;
+    text-align: center;
+    color: white;
+    padding: 44px;
+
+}
+.card .crd img{
+  width: 33%;
+}
+.card .crd p{
+    font-size:15px;
+    color: wheat;
+}
+.rest{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.rest img{
+    width: 32%;
+}
+.rest .text{
+    margin-top: 84px;
+}
+.rest .text h1{
+    color:rgb(31, 31, 31);
+
+}
+.rest .text p{
+    color: grey;
+  margin-top: 20px;
+}
+.rest .text img{
+    margin-top: 22px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 44px;
+
+
+}
+.footer .list img{
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+.footer .list p{
+    color: grey;
+    font-size: 17px;
+}
